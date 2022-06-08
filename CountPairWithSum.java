@@ -1,4 +1,6 @@
-class Solution {
+import java.util.HashMap;
+
+class CountPairWithSum {
    int getPairsCount(int[] arr, int n, int k) {
        HashMap<Integer,Integer> hm=new HashMap<Integer,Integer>();
        for(int i=0; i<n; i++){

@@ -1,4 +1,4 @@
-class Solution {
+class MissingNumber {
     int MissingNumber(int array[], int n) {
         // Your Code Here
         int sum=0;

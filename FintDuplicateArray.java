@@ -1,4 +1,10 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+
 class Solution {
+
     public static ArrayList<Integer> duplicates(int arr[], int n) {
         HashMap<Integer,Integer> m = new HashMap<>();
         ArrayList<Integer>output = new ArrayList<Integer>();

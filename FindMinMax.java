@@ -8,10 +8,8 @@ class pair
     }  
 }
 
-class Compute 
-{
-    pair getMinMax(long a[], long n)  
-    {
+class FindMinMax {
+    static pair getMinMax(long a[], long n) {
         long min =a[0];
         long max =0;
         
@@ -26,9 +24,9 @@ class Compute
         long arr[] = {1,2,4,7,8,5,3,6,9};
         long n = arr.length;
 
-        Compute obj = new Compute();
+//        Compute obj = new Compute();
 
-        pair product = obj.getMinMax(arr,n);
+        pair product = getMinMax(arr,n);
         
         System.out.println(product.first+" "+product.second);
 

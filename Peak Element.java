@@ -1,4 +1,4 @@
-class Solution
+class PeakElement
 {
 	// Function to find the peak element
 	// arr[]: input array

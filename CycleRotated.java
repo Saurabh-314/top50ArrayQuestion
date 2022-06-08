@@ -1,4 +1,4 @@
-class Compute {
+class CycleRotated {
     
     public void rotate(int arr[], int n)
     {
